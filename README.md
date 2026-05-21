@@ -1,73 +1,36 @@
-# React + TypeScript + Vite
+# AutoMax
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Como Executar o Projeto Localmente
+Siga o passo a passo abaixo para instalar e rodar a aplicação na sua máquina de desenvolvimento:
 
-Currently, two official plugins are available:
+Pré-requisitos: Certifique-se de ter o Node.js (versão 18 ou superior) instalado.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Clonar o projeto: Abra o terminal e clone o repositório.
 
-## React Compiler
+Instalar dependências: Execute o comando para baixar os pacotes necessários.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Iniciar aplicação: Rode o servidor local de testes.
 
-## Expanding the ESLint configuration
+Bash
+# 1. Clone este repositório
+git clone INSIRA_O_LINK_DO_SEU_REPOSITORIO_AQUI
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+# 2. Acesse a pasta do projeto
+cd automax
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+# 3. Instale as dependências do projeto
+npm install
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+# 4. Inicie o servidor de desenvolvimento local
+npm run dev
+Após iniciar, o terminal indicará o endereço local. Basta abrir o seu navegador e acessar:
+👉 http://localhost:5173 (ou portas subsequentes como 5174 ou 5175).
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Equipe de Desenvolvimento:
+Leanderson Ferreira 
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Amaro Souza 
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Maria Clara
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Vicenzo Gabriel
