@@ -23,6 +23,8 @@ npm install
 
 # 4. Inicie o servidor de desenvolvimento local
 npm run dev
+
+
 Após iniciar, o terminal indicará o endereço local. Basta abrir o seu navegador e acessar:
 👉 http://localhost:5173 (ou portas subsequentes como 5174 ou 5175).
 
