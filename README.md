@@ -25,10 +25,3 @@ Após iniciar, o terminal indicará o endereço local. Basta abrir o seu navegad
 👉 **`http://localhost:5173`** (clique no link gerado no terminal ou tente as portas subsequentes `5174` ou `5175` caso a primeira esteja em uso).
 
 ---
-
-## 👥 Equipe de Desenvolvimento
-
-* **Amaro Souza**
-* **Leanderson Ferreira**
-* **Maria Clara**
-* **Vicenzo Gabriel** 
