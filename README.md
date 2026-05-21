@@ -16,7 +16,7 @@ Bash
 git clone INSIRA_O_LINK_DO_SEU_REPOSITORIO_AQUI
 
 # 2. Acesse a pasta do projeto
-cd automax
+cd autoMax
 
 # 3. Instale as dependências do projeto
 npm install
