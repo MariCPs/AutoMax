@@ -26,7 +26,7 @@ Após iniciar, o terminal indicará o endereço local. Basta abrir o seu navegad
 
 ---
 
-## 👥 Equipe de Desenvolvimento (Equipe 2)
+## 👥 Equipe de Desenvolvimento
 
 * **Amaro Souza**
 * **Leanderson Ferreira**
