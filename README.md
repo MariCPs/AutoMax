@@ -9,7 +9,7 @@ Siga o passo a passo abaixo para instalar e rodar a aplicação na sua máquina 
 
 ```bash
 # 1. Clone este repositório
-git clone [https://github.com/Leandersonleox/autoMax.git](https://github.com/Leandersonleox/autoMax.git)
+git clone [https://github.com/MariCPs/AutoMax.git](https://github.com/MariCPs/AutoMax.git)
 
 # 2. Acesse a pasta do projeto
 cd autoMax
