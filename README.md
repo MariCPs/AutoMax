@@ -12,7 +12,7 @@ Siga o passo a passo abaixo para instalar e rodar a aplicação na sua máquina 
 git clone [https://github.com/MariCPs/AutoMax.git](https://github.com/MariCPs/AutoMax.git)
 
 # 2. Acesse a pasta do projeto
-cd autoMax
+cd AutoMax
 
 # 3. Instale as dependências do projeto
 npm install
